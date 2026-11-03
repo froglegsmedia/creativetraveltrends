@@ -94,3 +94,4 @@ footer a{color:#fff}footer .brand{font-size:1.8rem}
 .perks{padding-left:20px;margin:0}.perks li{margin:6px 0}
 .cdetails .cactions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px}.fine2{text-align:center;color:var(--muted);font-size:.85rem;margin-top:14px}
 @media (max-width:760px){.dgrid{grid-template-columns:1fr}.cdetails h2{font-size:2rem}}
+.itin li{display:grid!important;grid-template-columns:110px 1fr;gap:16px;align-items:baseline}.itin b{min-width:0!important}
