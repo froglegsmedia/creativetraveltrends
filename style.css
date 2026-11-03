@@ -63,3 +63,17 @@ footer a{color:#fff}footer .brand{font-size:1.8rem}
  header.nav.menu{background:#fffdf9}header.nav.menu .brand,header.nav.menu .burger{color:var(--deep)}
  .split,.fgrid{grid-template-columns:1fr;gap:36px}section{padding:76px 0}.band{background-attachment:scroll;padding:96px 0}.glass{padding:28px}
 }
+
+.cruises{display:grid;gap:40px}
+.cruise{display:grid;grid-template-columns:minmax(0,380px) 1fr;gap:44px;background:#fff;border-radius:24px;padding:28px;box-shadow:0 10px 40px rgba(11,60,73,.09);align-items:center}
+.flyer{position:relative;display:block;border-radius:16px;overflow:hidden;cursor:zoom-in}
+.flyer img{width:100%;height:auto}
+.flyer span{position:absolute;bottom:10px;right:10px;background:rgba(11,60,73,.8);color:#fff;font-size:.78rem;padding:5px 12px;border-radius:999px}
+.cruise .route{color:var(--muted);margin:0 0 12px}.cruise .price{font-size:1.25rem;font-weight:600;color:var(--deep);margin:0 0 16px}
+.cactions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.btn.ghost2{background:#fff;color:var(--coral-d)!important;border:1.5px solid var(--coral-d);box-shadow:none}
+.note{margin-top:34px;color:var(--muted);font-size:.9rem}
+#zoom{border:0;padding:0;background:transparent;max-width:96vw;max-height:96vh}#zoom::backdrop{background:rgba(6,30,38,.85)}
+#zoom img{max-width:96vw;max-height:92vh;width:auto;border-radius:12px}
+#zoom button{position:absolute;top:6px;right:10px;background:rgba(0,0,0,.6);color:#fff;border:0;font-size:1.8rem;border-radius:50%;width:44px;height:44px;cursor:pointer}
+@media (max-width:880px){.cruise{grid-template-columns:1fr;gap:22px;padding:18px}.cactions{gap:8px}.cactions .btn{flex:1 1 auto;text-align:center;padding:12px 14px;white-space:nowrap;font-size:.92rem}}
