@@ -79,6 +79,6 @@ footer a{color:#fff}footer .brand{font-size:1.8rem}
 @media (max-width:880px){.cruise{grid-template-columns:1fr;gap:22px;padding:18px}.cactions{gap:8px}.cactions .btn{flex:1 1 auto;text-align:center;padding:12px 14px;white-space:nowrap;font-size:.92rem}}
 
 /* Bigger cruise titles */
-.cruise .cbody h3{font-size:2.6rem;line-height:1.1;font-weight:800;letter-spacing:.01em;margin:.2em 0 .35em}
+.cruise .cbody h3{font-family:Inter,sans-serif!important;font-size:clamp(2.3rem,4.2vw,3.4rem)!important;line-height:1.02;font-weight:800!important;text-transform:uppercase;letter-spacing:.01em;color:var(--coral-d)!important;margin:.15em 0 .35em}
 .cruise .cbody .meta{font-size:1.05rem;font-weight:600}
-@media (max-width:640px){.cruise .cbody h3{font-size:2.1rem}}
+@media (max-width:640px){.cruise .cbody h3{font-size:2.2rem!important}}
