@@ -77,3 +77,8 @@ footer a{color:#fff}footer .brand{font-size:1.8rem}
 #zoom img{max-width:96vw;max-height:92vh;width:auto;border-radius:12px}
 #zoom button{position:absolute;top:6px;right:10px;background:rgba(0,0,0,.6);color:#fff;border:0;font-size:1.8rem;border-radius:50%;width:44px;height:44px;cursor:pointer}
 @media (max-width:880px){.cruise{grid-template-columns:1fr;gap:22px;padding:18px}.cactions{gap:8px}.cactions .btn{flex:1 1 auto;text-align:center;padding:12px 14px;white-space:nowrap;font-size:.92rem}}
+
+/* Bigger cruise titles */
+.cruise .cbody h3{font-size:2.6rem;line-height:1.1;font-weight:800;letter-spacing:.01em;margin:.2em 0 .35em}
+.cruise .cbody .meta{font-size:1.05rem;font-weight:600}
+@media (max-width:640px){.cruise .cbody h3{font-size:2.1rem}}
