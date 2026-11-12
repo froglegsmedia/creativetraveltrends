@@ -1,7 +1,19 @@
-# Creative Travel Trends: redesign preview
-Static site (HTML/CSS/vanilla JS), GitHub Pages ready (`.nojekyll` included). Open `index.html` or serve the folder.
-All copy and photos come from the current creativetraveltrends.com (Squarespace). Original photo credits shown there include Jodi Jacobson/iStock/Getty Images (Alaska) and Getty Images (New Zealand, Singles); confirm those licenses carry over to a new host.
-No third-party stock (Unsplash/Pexels) or AI imagery was added. Fonts: Cormorant Garamond + Inter via Google Fonts (OFL).
+# Creative Travel Trends
+
+Static site (HTML, CSS, and a small `main.js` file) for GitHub Pages (`.nojekyll` included). Open `index.html` or serve the folder.
+
+Fonts: Cormorant Garamond and Inter via Google Fonts (OFL).
 
 ## Third-party photos
-- img/mexican-riviera.jpg: "El Arco, Cabo San Lucas" by Salvador Navarro Maldonado on Unsplash (https://unsplash.com/photos/1ohWNFboj0A), Unsplash License.
+
+- `img/mexican-riviera.jpg`: "El Arco, Cabo San Lucas" by Salvador Navarro Maldonado on Unsplash (https://unsplash.com/photos/1ohWNFboj0A), Unsplash License.
+
+## Forms
+
+Consultation and email-signup forms use [FormSubmit](https://formsubmit.co) and deliver to `rhondawachteltravel@gmail.com`. No API keys or other secrets are stored in this repo.
+
+The first submission from a new FormSubmit setup sends Rhonda a confirmation email. She needs to approve that once before later submissions arrive in her inbox. After that, FormSubmit posts each form to her and can redirect visitors to `thanks.html`.
+
+Cuba, New Zealand, and Singles packages are retired and should not be added back to the site.
+
+Flyer images in `img/flyer-*.jpg` still show older dates and prices that are not final, so they are not displayed on the public pages until those materials are updated.

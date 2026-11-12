@@ -95,3 +95,30 @@ footer a{color:#fff}footer .brand{font-size:1.8rem}
 .cdetails .cactions{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:32px}.fine2{text-align:center;color:var(--muted);font-size:.85rem;margin-top:14px}
 @media (max-width:760px){.dgrid{grid-template-columns:1fr}.cdetails h2{font-size:2rem}}
 .itin li{display:grid!important;grid-template-columns:110px 1fr;gap:16px;align-items:baseline}.itin b{min-width:0!important}
+
+/* Forms and conversion updates */
+button.btn{border:0;cursor:pointer;font:inherit}
+.lead-form,.signup-form{display:grid;gap:16px;margin-top:22px}
+.lead-form label,.signup-form label{display:block;font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--coral-d);margin-bottom:6px}
+.lead-form input,.lead-form select,.lead-form textarea,
+.signup-form input,.signup-form select,.signup-form textarea{
+  width:100%;padding:12px 14px;border:1.5px solid rgba(11,60,73,.18);border-radius:12px;font:inherit;color:var(--ink);background:#fff
+}
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus,
+.signup-form input:focus,.signup-form select:focus,.signup-form textarea:focus{
+  outline:2px solid var(--ocean);outline-offset:1px
+}
+.lead-form textarea{min-height:120px;resize:vertical}
+.field-row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.form-note{font-size:.88rem;color:var(--muted);margin:0}
+.honey{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.coming{color:var(--deep);font-weight:600;font-size:.95rem;margin:0 0 18px}
+.coming-banner{background:#e3f4f4;color:var(--deep);font-weight:600;padding:14px 18px;border-radius:14px;margin:0 0 28px}
+.bigprice{font-size:clamp(1.4rem,3vw,2rem);line-height:1.25}
+.cruise-photo{display:block;border-radius:16px;overflow:hidden}
+.cruise-photo img{width:100%;height:100%;aspect-ratio:4/3;object-fit:cover}
+.playbook h2{margin-top:.2em}
+@media (max-width:760px){
+  .field-row{grid-template-columns:1fr}
+}
+.itin li{grid-template-columns:120px 1fr}
